@@ -35,3 +35,25 @@
 	left: 20px;
 } */
 
+
+/* #buttons input:last-child {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+} */
+/* 
+#buttons input:last-child {
+	position: fixed;
+	top: 20px;
+	left: 100px;
+} */
+
+
+#figure1 {
+	float: left;
+	margin-right: 5px;
+}
+
+.clear {
+	clear: both;
+}
