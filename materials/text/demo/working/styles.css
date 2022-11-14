@@ -1,9 +1,39 @@
 ﻿body
 {
     background:#cccc99; 
+    font-family: sans-serif;
+    /* font-family: Times New Roman, monospace; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+ol{
+    /* font: italic 0.9em serif; */
+    font-style: italic;
+    font-size: 0.9em;
 }
 
 .content
 {
     background: #eeeecc;
+    padding: 7px;
+}
+
+.code
+{
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.copyright {
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    margin: 20px;
 }
