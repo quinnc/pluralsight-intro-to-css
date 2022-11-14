@@ -1,20 +1,54 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html >
+<html lang="en">
 <head>
-    <title>A simple page</title>
-    
-    <link rel="stylesheet" href="styles.css" type="text/css" />    
-    
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>A simple page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">    
 </head>
 <body>
+	Body given background colour of seashell.
+
     <h1>Heading 1</h1>
 	<h2>Heading 2</h2>
 	
-	<div>A div <em>emphasis</em><strong>strong</strong></div>
-	<p>A paragraph</p>
+	<div>A div <em>emphasis</em> : <strong>strong</strong> <br/>
+		Font size: 8 px 
+	</div>
+
+	<p>A paragraph inside the body<br/>
+		Font size: 22 px <br/>
+		Border: solid, 5px <br/>
+	</p>
+
 	<div>
-		<p id="content" >A paragraph inside a div <em>emphasis</em><strong>strong</strong></p>
+		Another Div<br/>
+
+		<p id="content" >A paragraph inside a div <em>emphasis</em> : <strong>strong with id = content</strong><br/>
+			Is the font size small from div?<br/>
+			Is the font size big with a border from p?<br/>
+			Is the background aqua from 'div p'? <br/>
+			Is the font size medium from #content? <br/>
+		</p>
+
+		<p class="blue">This is a parameter with the blue class but also within a div tag.
+			Is the font size small from div?<br/>
+			Is the font size big with a border from p?<br/>
+			Is the background aqua from 'div p'? <br/>
+			Is the text color blue from .blue? <br/>
+		</p>
 	</div>	
     <a href="page.htm">Refresh</a>
+	<div class="blue">This is a div with the blue class.<br/>
+		Is the font size small from div?<br/>
+		Is the text color blue from .blue? <br/>
+
+		<p>This is a paragraph in the blue div.<br/>
+			
+		Is the font size big with a border from p?<br/>
+			Is the background aqua from 'div p'? <br/>
+		</p>
+	</div>
 </body>
 </html>
