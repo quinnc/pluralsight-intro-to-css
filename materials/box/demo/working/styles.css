@@ -9,20 +9,58 @@ body{
 	background-color: #CCCCCC;
 }
 
-ul{ 
+.menu { 
 	list-style: none;
-}
-
-ul li {
-	background-color: #cc9;
-	
-	margin: 5px;
-	padding: 3px 0 0 10px;
-	
-	border-bottom: 3px solid black;
-	border-left: 10px solid #cc3333;
-
-	width: 300px;
 	text-align: center;
 }
 
+.menu li {
+	background-color: #cc9;
+	
+	/* margin: 5px; */
+	padding: 3px 0 0 10px;
+	
+	border-bottom: 3px solid black;
+	/* border-left: 10px solid #cc3333; */
+
+	width: 300px;
+	text-align: center;
+
+	/* displays on single line until run out of horizontal space, but can't set block characteristics like width */
+	/* display: inline; */
+
+	/* no line break between elements, but can specify block characteristics like width */
+	display: inline-block;
+}
+
+.menu li a {
+	text-decoration: none;
+}
+
+/* If use li here, like in course, changes the background even when clicking won't work 
+i.e. mousing over 300 px width block outside of text.
+
+If use 'a' here, then not the entire background changes, but at least it only changes when clicking does something.
+*/
+.menu a:hover {
+	background-color: #cc9999;
+}
+
+.menu a 
+{
+	color: black;
+}
+
+
+.menu a:visited {
+	color: #550055;
+}
+
+/* 
+ul li:nth-child(3)
+{ */
+	/* no space reserved for the element */
+	/* display:none; */
+	/* space reserved for the element */
+	/* visibility: hidden; */
+/* } */
