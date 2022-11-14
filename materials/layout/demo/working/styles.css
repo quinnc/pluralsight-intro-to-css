@@ -1,0 +1,37 @@
+﻿body
+{
+    
+}
+
+#buttons {
+	margin: 100px 0;
+}
+
+#buttons input {
+	width: 220px;
+}
+
+/* #buttons input:last-child {
+	position: relative;
+	*/
+
+	/* top: 20px;
+	left: 50px; */
+
+	/* bottom:20px;
+	right:50px; */
+
+	/* top: -20px;
+	left: -50px; */
+/*
+	top: 220px;
+	left: -185px;
+} */
+
+/* 
+.temp {
+	position: relative;
+	top: 50px;
+	left: 20px;
+} */
+
